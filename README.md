@@ -50,3 +50,10 @@ for drupal console
 
 for changing configuration of your web server, you need to edit **.lando.yml**
 file. for details you can visit [Documentation](https://docs.lando.dev/config/drupal9.html#getting-started)
+
+If you have changed anything in **.lando.yml**, you need to run
+> lando rebuild
+
+To delete containers
+
+> lando destroy
